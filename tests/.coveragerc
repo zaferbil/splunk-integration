@@ -1,8 +1,5 @@
 [run]
 omit =
-	**/site-packages/**
-	**/ta-databricks/**
-	**/tests/**
 	app/bin/log_manager.py
 	app/bin/ta_databricks/aob_py3/*
 	app/bin/ta_databricks/alert_actions_base.py
@@ -13,6 +10,9 @@ omit =
 	app/bin/notebook.py
 	app/bin/*_declare.py
 	app/bin/*_rh_*.py
+	*/site-packages/*
+	*/ta_databricks/*
+	*/tests/*
 
 
 [report]
